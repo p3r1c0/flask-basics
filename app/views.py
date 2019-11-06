@@ -15,3 +15,8 @@ def receive():
 		print("Working..")
 	except Exception as e:
 		print(e)
+
+@app.route('/Xss.Js')
+def pedro():
+	from flask import Response
+	return Response("""alert('Powned');""", mimetype='text/javascript')
