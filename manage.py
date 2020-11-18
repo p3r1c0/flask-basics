@@ -1,5 +1,5 @@
 #
-# Authors: Xavi Álvarez
+# Authors: Xavi Alvarez
 #          Pedro Galindo
 
 from app.init_app import app, init_app, manager
